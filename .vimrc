@@ -39,14 +39,14 @@ setlocal foldmethod=syntax
 
 imap jj <Esc>
 
-" command W w
-" command Q q
-" command WQ wq
-" command Wq wq
-" command Wqa wqa
-" command WQa wqa
-" command WqA wqa
-" command WQA wqa
+command W w
+command Q q
+command WQ wq
+command Wq wq
+command Wqa wqa
+command WQa wqa
+command WqA wqa
+command WQA wqa
 
 
 autocmd BufWinEnter * if line2byte(line("$") + 1) > 1000000 | syntax clear | endif
